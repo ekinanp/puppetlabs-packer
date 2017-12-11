@@ -3,7 +3,7 @@
   "variables":
     {
       "provisioner": "vmware",
-      "headless": "true",
+      "headless": "false",
 
       "template_name": null,
       "vmware_template_os": null,
@@ -12,18 +12,18 @@
       "iso_checksum": null,
       "iso_checksum_type": null,
 
-      "kickstart_file": null,
-      "boot_wait": null,
-      "disk_size": null,
-      "ssh_username": null,
-      "ssh_password": null,
-      "ssh_port": null,
-      "ssh_wait_timeout": null,
-      "shutdown_command": null,
-      "memory_size": null,
-      "cpu_count": null,
+      "kickstart_file": "ks.cfg",
+      "boot_wait": "45s",
+      "disk_size": "20480",
+      "ssh_username": "root",
+      "ssh_password": "puppet",
+      "ssh_port": "22",
+      "ssh_wait_timeout": "10000s",
+      "shutdown_command": "/sbin/halt -h -p",
+      "memory_size": "512",
+      "cpu_count": "1",
 
-      "required_modules": null
+      "required_modules": "puppetlabs-stdlib saz-ssh"
     },
 
   "builders": [
