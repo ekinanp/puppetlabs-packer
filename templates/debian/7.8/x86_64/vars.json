@@ -2,7 +2,7 @@
     "template_name"                         : "debian-7.8-x86_64",
     "template_os"                           : "debian7-64",
     "beakerhost"                            : "debian7-64",
-    "version"                               : "0.0.5",
+    "version"                               : "imaging-pipelines-test",
     "iso_url"                               : "http://osmirror.delivery.puppetlabs.net/iso/debian-7.8.0-amd64-CD-1.iso",
     "iso_checksum"                          : "0e3d2e7bc3cd7c97f76a4ee8fb335e43",
     "iso_checksum_type"                     : "md5",
