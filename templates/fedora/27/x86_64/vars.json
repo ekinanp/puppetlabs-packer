@@ -2,7 +2,7 @@
     "template_name"                         : "fedora-27-x86_64",
     "template_os"                           : "fedora-64",
     "beakerhost"                            : "fedora27-64",
-    "version"                               : "0.0.1",
+    "version"                               : "TEST-PIPELINE",
     "iso_url"                               : "http://osmirror.delivery.puppetlabs.net/iso/Fedora-Server-dvd-x86_64-27-1.6.iso",
     "iso_checksum"                          : "e383dd414bb57231b20cbed11c4953cac71785f7d4f5990b0df5ad534a0ba95c",
     "iso_checksum_type"                     : "sha256",
